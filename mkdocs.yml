@@ -1,0 +1,12 @@
+site_name: UTA-manager
+theme: cinder
+pages:
+  - 'Главная': 'index.md'
+  - 'Скрипты': 'scripts.md'
+  - 'client': 'client.md'
+  - 'bundle':
+    - 'bundle': 'bundle/index.md'
+    - 'Call Tracking': 'bundle/call-tracking.md'
+    - 'Forms': 'bundle/forms.md'
+    - 'Callback': 'bundle/callback.md'
+    - 'Widget': 'bundle/widget.md'

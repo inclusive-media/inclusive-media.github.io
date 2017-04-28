@@ -7,6 +7,6 @@ pages:
   - 'bundle':
     - 'bundle': 'bundle/index.md'
     - 'Call Tracking': 'bundle/call-tracking.md'
-    - 'Forms': 'bundle/forms.md'
-    - 'Callback': 'bundle/callback.md'
-    - 'Widget': 'bundle/widget.md'
+    - 'Формы': 'bundle/forms.md'
+    - 'Обратный звонок': 'bundle/callback.md'
+    - 'Виджет': 'bundle/widget.md'

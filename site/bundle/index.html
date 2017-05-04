@@ -99,9 +99,24 @@
 
                         
                             
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Формы</a>
+    <ul class="dropdown-menu">
+        
+            
 <li >
-    <a href="forms/">Формы</a>
+    <a href="forms/ui/">С интерфейсом ("закрытые")</a>
 </li>
+
+        
+            
+<li >
+    <a href="forms/attach/">Встраиваемые ("открытые"")</a>
+</li>
+
+        
+    </ul>
+  </li>
 
                         
                             
@@ -163,6 +178,10 @@
             
                 <li class="third-level"><a href="#lang">lang</a></li>
             
+                <li class="third-level"><a href="#yacounter">yaCounter</a></li>
+            
+                <li class="third-level"><a href="#no-logo">no-logo</a></li>
+            
         
     
         <li class="first-level "><a href="#_3">Модули</a></li>
@@ -185,22 +204,35 @@
 <h3 id="disable-drupal-integration">disable-drupal-integration</h3>
 <p>Так получилось, Drupal Autodialog и наши формы не всегда понимают друг друга и могут портить друг другу жизнь.</p>
 <p>Поэтому, если после внедрения нашего кода у вас сломался автодиалог, то можно отключить взаимодействие с ним (корректная работа форм не гарантируется)
-указав в теге подключения флаг "disable-drupal-integration"</p>
+указав в теге подключения флаг <code>disable-drupal-integration</code></p>
 <pre><code class="html">&lt;script src='https://web.uta-manager.ru/bundle/:projectId' async disable-drupal-integration&gt;&lt;/script&gt;
 </code></pre>
 
 <h3 id="lang">lang</h3>
-<p>Если необходимо задать фиксированный язык для компонентов, можно указать его в атрибуте lang (важно, чтобы для данного языка было описание у полей форм, а также описание ошибок)</p>
+<p>Если необходимо задать фиксированный язык для компонентов, можно указать его в атрибуте <code>lang</code> (важно, чтобы для данного языка было описание у полей форм, а также описание ошибок)</p>
 <p>На данный момент описания ошибок есть для: <strong>ru</strong>, <strong>en</strong></p>
 <pre><code class="html">&lt;script src='https://web.uta-manager.ru/bundle/:projectId' async lang=&quot;en&quot;&gt;&lt;/script&gt;
 &lt;!-- или --&gt;
 &lt;script src='https://web.uta-manager.ru/bundle/:projectId' async lang=&quot;ru&quot;&gt;&lt;/script&gt;
 </code></pre>
 
+<h3 id="yacounter">yaCounter</h3>
+<p>Если на странице установлено несколько счетчиков метрики, то события будут передаваться в каждый.</p>
+<p>Если необходимо передавать события только в один счетчик метрики, его id можно указать в данном атрибуте.</p>
+<pre><code class="html">&lt;script src='https://web.uta-manager.ru/bundle/:projectId' async yaCounter=&quot;3333333&quot;&gt;&lt;/script&gt;
+</code></pre>
+
+<h3 id="no-logo">no-logo</h3>
+<p>Для скрытия ссылки на UTA-manager внизу форм с интерфейсом и панели обратного звонка, необходимо добавить флаг <code>no-logo</code></p>
+<pre><code class="html">&lt;script src='https://web.uta-manager.ru/bundle/:projectId' async no-logo&gt;&lt;/script&gt;
+</code></pre>
+
 <h1 id="_3">Модули</h1>
-<p><a href="call-tracking/">Call Tracking</a>
-<a href="forms/">Формы</a>
-<a href="callback/">Обратный звонок</a></p></div>
+<p><a href="call-tracking/">Call Tracking</a></p>
+<p><a href="forms/ui/">Формы с интерфейсом</a></p>
+<p><a href="forms/attach/">Формы встраиваемые</a></p>
+<p><a href="callback/">Обратный звонок</a></p>
+<p><a href="widget/">Виджет</a></p></div>
         
     </div>
 

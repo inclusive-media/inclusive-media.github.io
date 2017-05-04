@@ -7,6 +7,10 @@ pages:
   - 'bundle':
     - 'bundle': 'bundle/index.md'
     - 'Call Tracking': 'bundle/call-tracking.md'
-    - 'Формы': 'bundle/forms.md'
+    - 'Формы':
+      - 'С интерфейсом ("закрытые")': 'bundle/forms/ui.md'
+      - 'Встраиваемые ("открытые"")': 'bundle/forms/attach.md'
     - 'Обратный звонок': 'bundle/callback.md'
     - 'Виджет': 'bundle/widget.md'
+markdown_extensions:
+  - markdown_include.include

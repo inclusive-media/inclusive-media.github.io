@@ -16,6 +16,10 @@
 IMM.forms.showForm(id_формы)
 IMM.forms.showForm(id_формы, {title: 'Заголовок формы'})
 ```
-## События, передаваемые в метрику
+## События, передаваемые в Yandex.Metrika
 
 {!docs/bundle/forms/metrika/ui.md!}
+
+## События, передаваемые в Google Analytics
+
+{!docs/bundle/forms/ga/ui.md!}

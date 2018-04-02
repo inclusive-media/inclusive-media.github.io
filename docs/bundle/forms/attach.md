@@ -10,17 +10,22 @@
 
 ### Атрибуты формы
 | Атрибут | Описание | Возможные значения | Значение по умолчанию |
-| ------- | ------------------ | -------- | --------------------- |
+| ------- | -------- | ------------------ | --------------------- |
 | im-tooltip-placement | Положение всплывающей подсказки ФОРМЫ (ошибка сервера и тд) | `auto` `top` `top-start` `top-end` `right` `right-start` `right-end` `bottom` `bottom-start` `bottom-end` `left` `left-start` `left-end` | `bottom` |
 
 ### Атрибуты элементов формы
 | Атрибут | Описание | Возможные значения | Значение по умолчанию |
-| ------- | ------------------ | -------- | --------------------- |
+| ------- | -------- | ------------------ | --------------------- |
 | im-tooltip-placement | Положение всплывающей подсказки элемента | `auto` `top` `top-start` `top-end` `right` `right-start` `right-end` `bottom` `bottom-start` `bottom-end` `left` `left-start` `left-end` | `bottom-start` |
 
-## События, передаваемые в метрику
+## События, передаваемые в Yandex.Metrika
 
 {!docs/bundle/forms/metrika/attach.md!}
+
+## События, передаваемые в Google Analytics
+
+{!docs/bundle/forms/ga/attach.md!}
+
 
 ## Пример
 

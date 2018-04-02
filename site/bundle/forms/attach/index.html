@@ -176,10 +176,13 @@
                 <li class="third-level"><a href="#_4">Атрибуты элементов формы</a></li>
             
         
-            <li class="second-level"><a href="#_5">События, передаваемые в метрику</a></li>
+            <li class="second-level"><a href="#yandexmetrika">События, передаваемые в Yandex.Metrika</a></li>
             
         
-            <li class="second-level"><a href="#_6">Пример</a></li>
+            <li class="second-level"><a href="#google-analytics">События, передаваемые в Google Analytics</a></li>
+            
+        
+            <li class="second-level"><a href="#_5">Пример</a></li>
             
         
     
@@ -232,7 +235,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="_5">События, передаваемые в метрику</h2>
+<h2 id="yandexmetrika">События, передаваемые в Yandex.Metrika</h2>
 <table>
 <thead>
 <tr>
@@ -255,7 +258,34 @@
 </tr>
 </tbody>
 </table>
-<h2 id="_6">Пример</h2>
+<h2 id="google-analytics">События, передаваемые в Google Analytics</h2>
+<table>
+<thead>
+<tr>
+<th>Описание</th>
+<th>Категория</th>
+<th>Действие</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Подтверждение формы <em>(попытка отправить форму)</em></td>
+<td><code>uta</code></td>
+<td><code>formSubmit</code></td>
+</tr>
+<tr>
+<td>Успешное подтверждение формы <em>(сервер принял данные и произведет обработку)</em></td>
+<td><code>uta</code></td>
+<td><code>formSubmitSuccess</code></td>
+</tr>
+<tr>
+<td>Подтверждение неправильно заполненной формы</td>
+<td><code>uta</code></td>
+<td><code>formInvalid</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_5">Пример</h2>
 <pre><code class="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;ru&quot;&gt;
   &lt;head&gt;
